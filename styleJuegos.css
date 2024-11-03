@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     text-decoration: none;
     }
     
@@ -42,32 +43,33 @@ nav div ul li {
     padding-right: 20px;
     padding-left: 50px;
 }
-main{
-    width: 100%;
-    padding-top: 50px;
+
+.containerImage{
+    display: flex;
+    justify-content: space-around;
 }
 
-main h2 {
+.juegosAnteriores{
+    width: 100px;
+    height: 150px;
+}
+h2{
     text-align: center;
     padding-bottom: 50px;
 }
 
-.container {
-    width: 100%;
-    height: 350px;;
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 20px;
+.container{
+    width:570px ;
+    height: 600px;
 
+    position: relative;
+    margin: 0 auto;
 }
 
-
- .imagenes img{
-    width: 200px;
-    height: 300px;
- }
-
-
-
-
+.contenido{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
 
