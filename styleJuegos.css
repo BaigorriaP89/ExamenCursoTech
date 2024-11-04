@@ -44,12 +44,15 @@ nav div ul li {
     padding-left: 50px;
 }
 
+
 .containerImage{
-    
-    padding-top: 15px;
-    padding-bottom: 30px;
-   display: flex;
-   justify-content: space-around;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
 }
 .containerImage img{
     border: solid black 5px;
@@ -64,8 +67,15 @@ nav div ul li {
     height: 150px;
 }
 h2{
+   
     text-align: center;
     padding-bottom: 50px;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 800;
+    font-style: normal;
+        
+      
+      
 }
 
 .container{
@@ -84,6 +94,7 @@ h2{
 
 }
  p{
+    
     height: 200px;
     border: solid black;
     text-align: justify;
