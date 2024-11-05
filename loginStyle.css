@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: black;
 }
 body{
     height:1000px ;
@@ -31,19 +33,64 @@ form{
      
 }
 
+/* AJUSTE DEL BOTON PARA CERRAR EL LOGIN*/
+.cerrar {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 40%;
+    left: 80%;
+     
+    
+}
+.cerrar a img{
+    color: black;
+    width: 100%;
+    border: solid black 3px ;
+    border-radius: 8px;
+    background-color: rgb(189, 179, 179);
+}
+/*-----------------------------------------*/
+
+/*IMPUTS DE INGRESOS DE DATOS*/
+
 .datos{
     display: block;
     padding-bottom: 10px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     
-
 }
 
+.datos input{
+    padding-top: 10px;
+    text-align: left;
+    width: 80%;
+    height: 25px;
+}
+/*------------------------------------------*/
+
+
+/*BOTONES*/
+
 .botones{
+    
     display: inline-block;
     padding-right: 40px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.botones input{
+    width: 100px;
+    height: 100%;
+}
+.botones button{
+    width: 100px;
+    height: 100%;
+}
+
+/*--------------------------------------*/
 
