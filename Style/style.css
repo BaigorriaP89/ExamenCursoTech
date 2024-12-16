@@ -42,7 +42,15 @@ nav{
     justify-content: space-between; /*aliniacion en cada extremo*/
 }
 
-
+.bienvenida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
+    border: solid white;
+    background-color: rgb(13, 59, 36);
+    
+}
 
 nav div{
     height: 50px;
@@ -89,6 +97,11 @@ nav a{
     color: white;
 }
 
+ a :hover{
+    transform: scale(1.5);
+    
+ }
+
 
 main{
     width: 100%;
@@ -127,6 +140,9 @@ main h2 {
 .like span{
     padding-right: 20px;
 }
+.like span :hover{
+    transform: scale(1.1);
+}
 
 .like p {
     
@@ -139,6 +155,11 @@ main h2 {
  .imagenes img{
     width: 200px;
     height: 300px;
+    padding-bottom: 15px;
+ }
+
+ .imagenes img:hover{
+    transform: scale(1.1);
  }
 
 

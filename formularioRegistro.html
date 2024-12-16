@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styleRegistroForm.css">
+    <title>VideogameClub</title>
+    <link rel="stylesheet" href="/Style/styleRegistroForm.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
@@ -17,11 +17,11 @@
                 <a href="/index.html"><img src="/Imagenes/cerrar.png" alt=""></a>
             </div>
 
-        <div class="datos">
-            <label for="">Nombre</label>
+        <div class="datos" >
+            <label for="" >Nombre</label>
         
 
-            <input type="text">
+            <input  id="nombre" type="text">
         </div>
         <div class="datos">
             <label for="">Apellido</label>
@@ -63,7 +63,7 @@
         <div class="datos">
             <label for="">Confirmar Password</label>
   
-            <input type="password">
+            <input type="password" >
         </div>
         
         <div class="terminoycondiciones">
@@ -72,11 +72,14 @@
         </div>
 
         <div>
-            <input type="submit" class="enviar">
+            <button class="enviar" id="botonGuardar"> Guardar</button>
+            
         </div>
 
         </div>
     </form>
+
+    <script src= "/formulario.js"></script>
 </body>
     
 

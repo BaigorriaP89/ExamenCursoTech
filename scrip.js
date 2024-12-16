@@ -307,3 +307,12 @@ document.getElementById("count9").onclick = function (){
     contador9();
 }
 //-----------------------------------------
+// aca estoy retomando el dato guardado en el servidot por localStorage y si es distinto de null lo muestro 
+
+let ussPagina = localStorage.getItem("datoUsuario")
+
+if(ussPagina != null){
+    //alert(ussPagina);
+
+    document.getElementById("usuario").textContent = "BIENVENIDO " + ussPagina
+}
