@@ -14,24 +14,26 @@
 
     <main>
 <form action="">
-        <div class="cerrar">
-            <a href="/index.html"><img src="/Imagenes/cerrar.png" alt=""></a>
-        </div>
+        
         <div class="container">
+            <div class="cerrar">
+                <a href="/index.html"><img src="/Imagenes/cerrar.png" alt=""></a>
+            </div>
             <div class="datos">
-                <label for="">Email</label>
+                <label for="" >Email</label>
             
-                <input type="email" class="datos">
+                <input type="email" id="abc" class="datos">
             </div>
             
             <div class="datos">
                 <label for="">Password</label>
             
-                <input type="password" class="datos">
+                <input type="password" class="datos" id="password">
             </div>
             
            <DIV class="botones">
-            <input type="submit" value="Log In">
+            <button  type="text" id="login"> Log IN</button>
+            
            </DIV>
            <div class="botones">
             <button><a href="/formularioRegistro.html">Crear Cuenta</a></button>
@@ -42,5 +44,20 @@
     
 
 </main>
+
+<div class="apis">
+    <h1>Aca hay una api </h1>
+    <ul>
+        <li id="nom1"></li>
+        <li id="nom2"></li>
+        <li id="nom3"></li>
+        <li id="nom4"></li>
+        <li id="nom5"></li>
+    </ul>
+
+</div>
+
+<script src="/login.js"></script>
+
 </body>
 </html>

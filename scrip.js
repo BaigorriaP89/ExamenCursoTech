@@ -311,8 +311,27 @@ document.getElementById("count9").onclick = function (){
 
 let ussPagina = localStorage.getItem("datoUsuario")
 
+let ussDatos = [
+    {
+        nombre: localStorage.getItem("datoUsuario"),
+        apellido:localStorage.getItem("apellidoUsuarioKey"),
+        telefono:localStorage.getItem("telefonoUsuarioKey"), 
+        email:localStorage.getItem("emailUsuarioKey")
+
+        
+    }
+]
+console.log(ussDatos[0].nombre)
+
 if(ussPagina != null){
     //alert(ussPagina);
 
-    document.getElementById("usuario").textContent = "BIENVENIDO " + ussPagina
+   
+
+    document.getElementById("usuario").textContent = "BIENVENIDO " + ussDatos[0].nombre + " " + ussDatos[0].apellido + " " + ussDatos[0].telefono + " " + ussDatos[0].email
+
+    
 }
+
+
+
